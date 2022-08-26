@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project|13</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4649e5beb3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+    <div class="container">
+      
+      <nav class="navbar">
+        <div class="nav-center">
+          <!--Nav Header-->
+          <div class="nav-header">
+            <img src="./Logo.png" alt="logo" />
+            <button class="nav-toggle" id="nav-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+          <!--End of nav header-->
+  
+          <ul class="nav-links show-links" id="nav-links">
+            <li><a href="" class="nav-link">Home</a></li>
+            <li><a href="" class="nav-link">Services</a></li>
+            <li><a href="" class="nav-link">Pricing</a></li>
+            <li><a href="" class="nav-link">Testinomial</a></li>
+            <li><a href="" class="nav-link">Blog</a></li>
+    
+            <button class="nav-btn">Free Trial</button>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Hero Section-->
+      <section class="hero">
+        <article class="hero-left">
+          <h1>
+            Codext one of the <br />
+            best system in Sass
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+            tempora ab cupiditate nobis excepturi ratione harum neque
+            accusantium error praesentium!
+          </p>
+        </article>
+
+        <article class="hero-right">
+          <img src="./hero.svg" alt="hero" />
+        </article>
+      </section>
+    </div>
+      <!--Sass Section-->
+      <section class="sass">
+        <article class="sas-left">
+          <img src="./Saas.svg" alt="saas" />
+        </article>
+
+        <article class="sas-right">
+          <h1>It's Helpful for operating system</h1>
+          <div class="one">
+            <h3> <i class="fa-solid fa-share arr1"></i> Ultra Fast & Secure</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, debitis.
+            </p>
+          </div>
+          <div class="two">
+            <h3> <i class="fa-solid fa-share arr2"></i> Allow Customization</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,debitis.
+            </p>
+          </div>
+          <div class="three">
+            <h3> <i class="fa-solid fa-share arr3"></i> Smart Contract</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, debitis.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <div class="header">
+        <h1>We Provide Best Feature <br>for cutsomer</h1>
+      </div>
+
+      <!--Card Section-->
+
+      <section class="cards">
+        <article class="card1">
+            <img src="./web-developing.svg" alt="webdev">
+            <div class="card">
+            <h3>Clean Code</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur 
+                adipisicing.</p>
+            </div>
+        </article>
+
+        <article class="card2">
+            <img src="./data-analytics.svg" alt="data">
+            <h3>Data Analytics</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur 
+                adipisicing.</p>
+        </article>
+
+        <article class="card3">
+            <img src="./secured-profile.svg" alt="secured">
+            <h3>Fully Secured</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur 
+                adipisicing.</p>
+        </article>
+
+        <article class="card4">
+            <img src="./support.svg" alt="support">
+            <h3>Fully Secured</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur 
+                adipisicing.</p>
+        </article>
+
+      </section>
+    
+      <script>
+        const navBtn = document.getElementById("nav-toggle");
+        const links = document.getElementById("nav-links");
+  
+        navBtn.addEventListener("click", () => {
+          links.classList.toggle("show-links");
+        });
+      </script>
+  </body>
+</html>
